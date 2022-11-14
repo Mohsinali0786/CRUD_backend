@@ -1,5 +1,5 @@
 const moongoose=require('mongoose')
-const { STRING} = require('./schematypes')
+const { STRING} = require('./schemaTypes')
 
 const userSchema=moongoose.Schema({
     name:STRING,
